@@ -16,3 +16,5 @@ services:
       - 8080:3000
     volumes:
       - ./client/src/:/app/src/
+    environment:
+      - WATCHPACK_POLLING=true
